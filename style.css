@@ -1,7 +1,20 @@
 h1 {
-    color:rgb(54, 35, 6); text-align: center;
+    color:rgb(54, 35, 6); text-align: center; 
+    text-decoration: underline overline;
 }
 
 * {
     background-color: blanchedalmond;
+}
+
+ul {
+    text-align: center; font-size: 36px;
+    list-style: none;
+}
+
+.pics {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    border: 5px solid rgb(3, 3, 3);
 }
