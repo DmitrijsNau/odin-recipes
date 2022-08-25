@@ -1,14 +1,12 @@
-h1 {
-    color:rgb(54, 35, 6); 
-}
+
 .header{
     display: flex;
-
+    background-color:rgb(204, 136, 10);
 }
-.links{
-    
+p {
+    font-style: italic;
 }
-* {
+.body {
     background-color: blanchedalmond;
 }
 
@@ -22,4 +20,37 @@ ul {
     height: auto;
     text-align: center;
     border: 5px solid rgb(3, 3, 3);
+}
+
+.options {
+    padding: 10px;
+    background-color:rgb(204, 136, 10);
+    position: absolute;
+    right: 55px;
+    align-items: center;
+}
+
+.title {
+font-weight: 600;
+font-family: 'CenturyGothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
+font-size: 40px;
+}
+.symbol {
+    width: 50px;
+    height: auto;
+    margin-top: 15px;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+.links {
+    font-size: 30px;
+    font-family:'CenturyGothic';
+    text-decoration:underline;
 }
