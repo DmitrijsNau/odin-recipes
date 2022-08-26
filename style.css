@@ -16,12 +16,10 @@ ul {
 }
 
 .pics {
-    width: 250px;
+    width: 100px;
     height: auto;
-    text-align: center;
     border: 5px solid rgb(3, 3, 3);
 }
-
 .options {
     padding: 10px;
     background-color:rgb(204, 136, 10);
@@ -29,7 +27,6 @@ ul {
     right: 55px;
     align-items: center;
 }
-
 .title {
 font-weight: 600;
 font-family: 'CenturyGothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
@@ -53,4 +50,36 @@ a, a:hover, a:focus, a:active {
     font-size: 30px;
     font-family:'CenturyGothic';
     text-decoration:underline;
+}
+.recipelist {
+    text-align: center;
+}
+.caption {
+    display: inline-block;
+} 
+ figure {
+    display: inline-block;
+}
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #bb3333;
+}
+figure {
+    padding: 5px;
+}
+img:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+img {
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
 }
